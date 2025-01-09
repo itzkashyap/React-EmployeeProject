@@ -7,6 +7,7 @@ import Contact from './components/Contact';
 import Employee from './components/Employee';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Header from './Header';
+import Namaste from './components/Namaste';
 
 function App() {
   /// for git tesing
@@ -26,6 +27,8 @@ function App() {
       <Route path="contact" element={<Contact/>}/>
      
       <Route path="employee" element={<Employee/>}/>
+
+      <Route path ="namaste" element={<Namaste/>}/>
       </Routes>
       </BrowserRouter>
      </>
