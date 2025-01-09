@@ -30,6 +30,7 @@ function Header() {
 
       <li class="nav-item">
       <Link to="/namaste" className='nav-link'>Namaste</Link>
+      </li>
 
 
       <li class="nav-item">
