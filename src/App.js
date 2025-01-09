@@ -8,6 +8,7 @@ import Employee from './components/Employee';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Header from './Header';
 import Namaste from './components/Namaste';
+import Hello from './components/Hello'
 
 function App() {
   /// for git tesing
@@ -28,7 +29,12 @@ function App() {
      
       <Route path="employee" element={<Employee/>}/>
 
+
       <Route path ="namaste" element={<Namaste/>}/>
+
+      <Route path="hello" element={<Hello/>}/>
+
+
       </Routes>
       </BrowserRouter>
      </>
@@ -37,3 +43,4 @@ function App() {
 }
 
 export default App;
+//https://github.com/itzkashyap/React-EmployeeProject.git
